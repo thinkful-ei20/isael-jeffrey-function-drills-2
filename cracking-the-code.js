@@ -14,6 +14,7 @@ function codeCrack(sentence) {
                 break;
       case 'd': result += word[4];
                 break;
+      default: result += " ";
     }    
   });
 
